@@ -1,0 +1,39 @@
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.red-btn, .green-btn, .yellow-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: aliceblue;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.trafic-light {
+    width: 120px;
+    height: 380px; 
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 20px 0;
+    box-sizing: border-box; 
+}
+
+.red, .green, .yellow {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    transition: background-color 0.4s ease;
+}
